@@ -1,9 +1,10 @@
 import React from 'react'
 import './Components/WeatherCard.css'
 import './Components/BulkToggle.css'
+import './Components/Calculator.css'
 import WeatherCard from './Components/WeatherCard'
 import BulkToggle from './Components/BulkToggle'
-// import Calculator from './Components/Calculator'
+import Calculator from './Components/Calculator'
 
 const App = () => {
   return (
@@ -14,7 +15,7 @@ const App = () => {
 
       {/* <WeatherCard location={"Delhi"} /> */}
 
-      {/* <Calculator/> */}
+      <Calculator/>
     </>
   )
 }
